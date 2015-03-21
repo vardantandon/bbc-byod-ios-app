@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089140781A9E13970033829E /* DownStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089140771A9E13970033829E /* DownStateButton.swift */; };
+		089FEE1F1A8BC3CC004C9ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE1E1A8BC3CC004C9ABE /* AppDelegate.swift */; };
+		089FEE211A8BC3CC004C9ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE201A8BC3CC004C9ABE /* ViewController.swift */; };
+		089FEE241A8BC3CC004C9ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE221A8BC3CC004C9ABE /* Main.storyboard */; };
+		089FEE261A8BC3CC004C9ABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE251A8BC3CC004C9ABE /* Images.xcassets */; };
+		089FEE291A8BC3CC004C9ABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE271A8BC3CC004C9ABE /* LaunchScreen.xib */; };
+		089FEE351A8BC3CC004C9ABE /* FeedbackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE341A8BC3CC004C9ABE /* FeedbackAppTests.swift */; };
+		089FEE471A8BC470004C9ABE /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE3F1A8BC470004C9ABE /* GCD.swift */; };
+		089FEE481A8BC470004C9ABE /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE401A8BC470004C9ABE /* Net.swift */; };
+		089FEE491A8BC470004C9ABE /* NetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE411A8BC470004C9ABE /* NetData.swift */; };
+		089FEE4A1A8BC470004C9ABE /* NetDownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE421A8BC470004C9ABE /* NetDownloadTask.swift */; };
+		089FEE4B1A8BC470004C9ABE /* NetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE431A8BC470004C9ABE /* NetHelper.swift */; };
+		089FEE4C1A8BC470004C9ABE /* NetRequestSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE441A8BC470004C9ABE /* NetRequestSerialization.swift */; };
+		089FEE4D1A8BC470004C9ABE /* NetResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE451A8BC470004C9ABE /* NetResponseData.swift */; };
+		089FEE4E1A8BC470004C9ABE /* NetUploadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089FEE461A8BC470004C9ABE /* NetUploadTask.swift */; };
+		089FEE561A8BC494004C9ABE /* UIButtonsSadSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE501A8BC494004C9ABE /* UIButtonsSadSelected.png */; };
+		089FEE571A8BC494004C9ABE /* UIButtonsSadDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE511A8BC494004C9ABE /* UIButtonsSadDeselected.png */; };
+		089FEE581A8BC494004C9ABE /* UIButtonsHappySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE521A8BC494004C9ABE /* UIButtonsHappySelected.png */; };
+		089FEE591A8BC494004C9ABE /* UIButtonsHappyDeselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE531A8BC494004C9ABE /* UIButtonsHappyDeselected.png */; };
+		089FEE5A1A8BC494004C9ABE /* UIButtonsSad.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE541A8BC494004C9ABE /* UIButtonsSad.png */; };
+		089FEE5B1A8BC494004C9ABE /* UIButtonsHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 089FEE551A8BC494004C9ABE /* UIButtonsHappy.png */; };
+		08FBFA4C1AAE548E0014961F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FBFA4B1AAE548E0014961F /* LoginViewController.swift */; };
+		DD2D5C361ABC7B3E0035E2FF /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D5C351ABC7B3E0035E2FF /* SwiftyJSON.swift */; };
+		DD2D5C381ABC7F590035E2FF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D5C371ABC7F590035E2FF /* DataManager.swift */; };
+		DD2D5C3A1ABC8D3D0035E2FF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D5C391ABC8D3D0035E2FF /* AppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		089FEE2F1A8BC3CC004C9ABE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089FEE111A8BC3CC004C9ABE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 089FEE181A8BC3CC004C9ABE;
+			remoteInfo = FeedbackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089140771A9E13970033829E /* DownStateButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownStateButton.swift; sourceTree = "<group>"; };
+		089FEE191A8BC3CC004C9ABE /* FeedbackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedbackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		089FEE1D1A8BC3CC004C9ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089FEE1E1A8BC3CC004C9ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		089FEE201A8BC3CC004C9ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		089FEE231A8BC3CC004C9ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		089FEE251A8BC3CC004C9ABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		089FEE281A8BC3CC004C9ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		089FEE2E1A8BC3CC004C9ABE /* FeedbackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		089FEE331A8BC3CC004C9ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089FEE341A8BC3CC004C9ABE /* FeedbackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackAppTests.swift; sourceTree = "<group>"; };
+		089FEE3F1A8BC470004C9ABE /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		089FEE401A8BC470004C9ABE /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		089FEE411A8BC470004C9ABE /* NetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetData.swift; sourceTree = "<group>"; };
+		089FEE421A8BC470004C9ABE /* NetDownloadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetDownloadTask.swift; sourceTree = "<group>"; };
+		089FEE431A8BC470004C9ABE /* NetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetHelper.swift; sourceTree = "<group>"; };
+		089FEE441A8BC470004C9ABE /* NetRequestSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetRequestSerialization.swift; sourceTree = "<group>"; };
+		089FEE451A8BC470004C9ABE /* NetResponseData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetResponseData.swift; sourceTree = "<group>"; };
+		089FEE461A8BC470004C9ABE /* NetUploadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetUploadTask.swift; sourceTree = "<group>"; };
+		089FEE501A8BC494004C9ABE /* UIButtonsSadSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsSadSelected.png; sourceTree = "<group>"; };
+		089FEE511A8BC494004C9ABE /* UIButtonsSadDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsSadDeselected.png; sourceTree = "<group>"; };
+		089FEE521A8BC494004C9ABE /* UIButtonsHappySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsHappySelected.png; sourceTree = "<group>"; };
+		089FEE531A8BC494004C9ABE /* UIButtonsHappyDeselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsHappyDeselected.png; sourceTree = "<group>"; };
+		089FEE541A8BC494004C9ABE /* UIButtonsSad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsSad.png; sourceTree = "<group>"; };
+		089FEE551A8BC494004C9ABE /* UIButtonsHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIButtonsHappy.png; sourceTree = "<group>"; };
+		08FBFA4B1AAE548E0014961F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD2D5C351ABC7B3E0035E2FF /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		DD2D5C371ABC7F590035E2FF /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		DD2D5C391ABC8D3D0035E2FF /* AppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		089FEE161A8BC3CC004C9ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089FEE2B1A8BC3CC004C9ABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089FEE101A8BC3CC004C9ABE = {
+			isa = PBXGroup;
+			children = (
+				089FEE1B1A8BC3CC004C9ABE /* FeedbackApp */,
+				089FEE311A8BC3CC004C9ABE /* FeedbackAppTests */,
+				089FEE1A1A8BC3CC004C9ABE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		089FEE1A1A8BC3CC004C9ABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE191A8BC3CC004C9ABE /* FeedbackApp.app */,
+				089FEE2E1A8BC3CC004C9ABE /* FeedbackAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		089FEE1B1A8BC3CC004C9ABE /* FeedbackApp */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE4F1A8BC480004C9ABE /* Images */,
+				089FEE3E1A8BC457004C9ABE /* Net */,
+				089FEE1E1A8BC3CC004C9ABE /* AppDelegate.swift */,
+				DD2D5C351ABC7B3E0035E2FF /* SwiftyJSON.swift */,
+				DD2D5C371ABC7F590035E2FF /* DataManager.swift */,
+				089FEE201A8BC3CC004C9ABE /* ViewController.swift */,
+				DD2D5C391ABC8D3D0035E2FF /* AppModel.swift */,
+				089FEE221A8BC3CC004C9ABE /* Main.storyboard */,
+				089FEE251A8BC3CC004C9ABE /* Images.xcassets */,
+				089FEE271A8BC3CC004C9ABE /* LaunchScreen.xib */,
+				089FEE1C1A8BC3CC004C9ABE /* Supporting Files */,
+				089140771A9E13970033829E /* DownStateButton.swift */,
+				08FBFA4B1AAE548E0014961F /* LoginViewController.swift */,
+			);
+			path = FeedbackApp;
+			sourceTree = "<group>";
+		};
+		089FEE1C1A8BC3CC004C9ABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE1D1A8BC3CC004C9ABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		089FEE311A8BC3CC004C9ABE /* FeedbackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE341A8BC3CC004C9ABE /* FeedbackAppTests.swift */,
+				089FEE321A8BC3CC004C9ABE /* Supporting Files */,
+			);
+			path = FeedbackAppTests;
+			sourceTree = "<group>";
+		};
+		089FEE321A8BC3CC004C9ABE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE331A8BC3CC004C9ABE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		089FEE3E1A8BC457004C9ABE /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE3F1A8BC470004C9ABE /* GCD.swift */,
+				089FEE401A8BC470004C9ABE /* Net.swift */,
+				089FEE411A8BC470004C9ABE /* NetData.swift */,
+				089FEE421A8BC470004C9ABE /* NetDownloadTask.swift */,
+				089FEE431A8BC470004C9ABE /* NetHelper.swift */,
+				089FEE441A8BC470004C9ABE /* NetRequestSerialization.swift */,
+				089FEE451A8BC470004C9ABE /* NetResponseData.swift */,
+				089FEE461A8BC470004C9ABE /* NetUploadTask.swift */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		089FEE4F1A8BC480004C9ABE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				089FEE501A8BC494004C9ABE /* UIButtonsSadSelected.png */,
+				089FEE511A8BC494004C9ABE /* UIButtonsSadDeselected.png */,
+				089FEE521A8BC494004C9ABE /* UIButtonsHappySelected.png */,
+				089FEE531A8BC494004C9ABE /* UIButtonsHappyDeselected.png */,
+				089FEE541A8BC494004C9ABE /* UIButtonsSad.png */,
+				089FEE551A8BC494004C9ABE /* UIButtonsHappy.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		089FEE181A8BC3CC004C9ABE /* FeedbackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089FEE381A8BC3CC004C9ABE /* Build configuration list for PBXNativeTarget "FeedbackApp" */;
+			buildPhases = (
+				089FEE151A8BC3CC004C9ABE /* Sources */,
+				089FEE161A8BC3CC004C9ABE /* Frameworks */,
+				089FEE171A8BC3CC004C9ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeedbackApp;
+			productName = FeedbackApp;
+			productReference = 089FEE191A8BC3CC004C9ABE /* FeedbackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		089FEE2D1A8BC3CC004C9ABE /* FeedbackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089FEE3B1A8BC3CC004C9ABE /* Build configuration list for PBXNativeTarget "FeedbackAppTests" */;
+			buildPhases = (
+				089FEE2A1A8BC3CC004C9ABE /* Sources */,
+				089FEE2B1A8BC3CC004C9ABE /* Frameworks */,
+				089FEE2C1A8BC3CC004C9ABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089FEE301A8BC3CC004C9ABE /* PBXTargetDependency */,
+			);
+			name = FeedbackAppTests;
+			productName = FeedbackAppTests;
+			productReference = 089FEE2E1A8BC3CC004C9ABE /* FeedbackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089FEE111A8BC3CC004C9ABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Delia Gander";
+				TargetAttributes = {
+					089FEE181A8BC3CC004C9ABE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					089FEE2D1A8BC3CC004C9ABE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 089FEE181A8BC3CC004C9ABE;
+					};
+				};
+			};
+			buildConfigurationList = 089FEE141A8BC3CC004C9ABE /* Build configuration list for PBXProject "FeedbackApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 089FEE101A8BC3CC004C9ABE;
+			productRefGroup = 089FEE1A1A8BC3CC004C9ABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				089FEE181A8BC3CC004C9ABE /* FeedbackApp */,
+				089FEE2D1A8BC3CC004C9ABE /* FeedbackAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		089FEE171A8BC3CC004C9ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089FEE5A1A8BC494004C9ABE /* UIButtonsSad.png in Resources */,
+				089FEE591A8BC494004C9ABE /* UIButtonsHappyDeselected.png in Resources */,
+				089FEE241A8BC3CC004C9ABE /* Main.storyboard in Resources */,
+				089FEE561A8BC494004C9ABE /* UIButtonsSadSelected.png in Resources */,
+				089FEE291A8BC3CC004C9ABE /* LaunchScreen.xib in Resources */,
+				089FEE581A8BC494004C9ABE /* UIButtonsHappySelected.png in Resources */,
+				089FEE571A8BC494004C9ABE /* UIButtonsSadDeselected.png in Resources */,
+				089FEE261A8BC3CC004C9ABE /* Images.xcassets in Resources */,
+				089FEE5B1A8BC494004C9ABE /* UIButtonsHappy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089FEE2C1A8BC3CC004C9ABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		089FEE151A8BC3CC004C9ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FBFA4C1AAE548E0014961F /* LoginViewController.swift in Sources */,
+				089FEE4A1A8BC470004C9ABE /* NetDownloadTask.swift in Sources */,
+				089FEE471A8BC470004C9ABE /* GCD.swift in Sources */,
+				DD2D5C381ABC7F590035E2FF /* DataManager.swift in Sources */,
+				089FEE211A8BC3CC004C9ABE /* ViewController.swift in Sources */,
+				089FEE491A8BC470004C9ABE /* NetData.swift in Sources */,
+				089FEE1F1A8BC3CC004C9ABE /* AppDelegate.swift in Sources */,
+				089FEE4E1A8BC470004C9ABE /* NetUploadTask.swift in Sources */,
+				089FEE4B1A8BC470004C9ABE /* NetHelper.swift in Sources */,
+				089140781A9E13970033829E /* DownStateButton.swift in Sources */,
+				089FEE4D1A8BC470004C9ABE /* NetResponseData.swift in Sources */,
+				089FEE4C1A8BC470004C9ABE /* NetRequestSerialization.swift in Sources */,
+				DD2D5C361ABC7B3E0035E2FF /* SwiftyJSON.swift in Sources */,
+				DD2D5C3A1ABC8D3D0035E2FF /* AppModel.swift in Sources */,
+				089FEE481A8BC470004C9ABE /* Net.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		089FEE2A1A8BC3CC004C9ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089FEE351A8BC3CC004C9ABE /* FeedbackAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		089FEE301A8BC3CC004C9ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 089FEE181A8BC3CC004C9ABE /* FeedbackApp */;
+			targetProxy = 089FEE2F1A8BC3CC004C9ABE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089FEE221A8BC3CC004C9ABE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089FEE231A8BC3CC004C9ABE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		089FEE271A8BC3CC004C9ABE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089FEE281A8BC3CC004C9ABE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089FEE361A8BC3CC004C9ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089FEE371A8BC3CC004C9ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089FEE391A8BC3CC004C9ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeedbackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		089FEE3A1A8BC3CC004C9ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeedbackApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		089FEE3C1A8BC3CC004C9ABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeedbackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedbackApp.app/FeedbackApp";
+			};
+			name = Debug;
+		};
+		089FEE3D1A8BC3CC004C9ABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeedbackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedbackApp.app/FeedbackApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		089FEE141A8BC3CC004C9ABE /* Build configuration list for PBXProject "FeedbackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089FEE361A8BC3CC004C9ABE /* Debug */,
+				089FEE371A8BC3CC004C9ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089FEE381A8BC3CC004C9ABE /* Build configuration list for PBXNativeTarget "FeedbackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089FEE391A8BC3CC004C9ABE /* Debug */,
+				089FEE3A1A8BC3CC004C9ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089FEE3B1A8BC3CC004C9ABE /* Build configuration list for PBXNativeTarget "FeedbackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089FEE3C1A8BC3CC004C9ABE /* Debug */,
+				089FEE3D1A8BC3CC004C9ABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089FEE111A8BC3CC004C9ABE /* Project object */;
+}
