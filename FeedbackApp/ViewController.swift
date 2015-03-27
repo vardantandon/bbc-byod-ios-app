@@ -29,10 +29,11 @@ class ViewController: UIViewController{
     
     var appName: String!
     var username: String!
-    
+    var apps = [AppModel]()
     
     override func viewDidLoad() {
         net = Net()
+        
         super.viewDidLoad()
         let sad = UIImage(named: "UIButtonsSad.png") as UIImage?
         let happy = UIImage(named: "UIButtonsHappy.png") as UIImage?
@@ -56,34 +57,26 @@ class ViewController: UIViewController{
         println(Device.deviceSystemName)
         println(Device.deviceSystemVersion)
         
-        DataManager.getTopAppsDataFromItunesWithSuccess { (ByodData) -> Void in
-            let json = JSON(data: ByodData)
-            println(json)
-        
-            if let appArray = json.array{
-                //2
-                var apps = [AppModel]()
-                
-                //3
-                for appDict in appArray {
-                    var appName: String = appDict["name"].stringValue
-                    var app = AppModel(name: appName)
-                    apps.append(app)
-                }
-                
-                println(apps)
-                
-            }
-        }
-        
-        
 }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+ /*
+    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+        return 1
+    }
     
+    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return self.apps.count
+    }
+    
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+        return "\(self.apps)"
+    }
+*/
     
     @IBAction func sendButton(sender: AnyObject) {
         if(isUserHappy.happy == 1){

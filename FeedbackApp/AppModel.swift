@@ -13,7 +13,7 @@ class AppModel: NSObject, Printable {
     
     
     override var description: String {
-        return "\(name) \n"
+        return "\(name)"
     }
     
     init(name: String?) {

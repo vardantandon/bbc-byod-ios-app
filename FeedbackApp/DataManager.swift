@@ -13,7 +13,6 @@ let TopAppURL = "https://comp2014group1.herokuapp.com/apps.json"
 
 class DataManager {
   
-
   class func loadDataFromURL(url: NSURL, completion:(data: NSData?, error: NSError?) -> Void) {
     var session = NSURLSession.sharedSession()
     
@@ -34,7 +33,7 @@ class DataManager {
     loadDataTask.resume()
   }
     
-  class func getTopAppsDataFromItunesWithSuccess(success: ((ByodData: NSData!) -> Void)) {
+  class func getTopAppsDataFromAppsWithSuccess(success: ((ByodData: NSData!) -> Void)) {
         //1
         loadDataFromURL(NSURL(string: TopAppURL)!, completion:{(data, error) -> Void in
             //2
