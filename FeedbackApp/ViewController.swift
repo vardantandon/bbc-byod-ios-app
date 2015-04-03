@@ -94,7 +94,7 @@ class ViewController: UIViewController{
     func makeSadPost(){
         let url = "https://comp2014group1.herokuapp.com/feedbacks"
         var text: String = userComment.text
-        let params = ["string": "&feedback[rating]=1&feedback[comment]=" + text + "&feedback[user_name]=" + username + "&feedback[app_name]=" + appName]
+        let params = ["string": "&feedback[rating]=0&feedback[comment]=" + text + "&feedback[user_name]=" + username /* + "&feedback[app_name]=" + appName*/]
         
         net.POST(url, params: params, successHandler: {
             responseData in
@@ -110,7 +110,7 @@ class ViewController: UIViewController{
     func makeHappyPost(){
         let url = "https://comp2014group1.herokuapp.com/feedbacks"
         var text: String = userComment.text
-        let params = ["string": "&feedback[rating]=0&feedback[comment]=" + text + "&feedback[user_name]=" + username + "&feedback[app_name]=" + appName]
+        let params = ["string": "&feedback[rating]=1&feedback[comment]=" + text + "&feedback[user_name]=" + username /*+ "&feedback[app_name]=" + appName*/]
         
         net.POST(url, params: params, successHandler: {
             responseData in
